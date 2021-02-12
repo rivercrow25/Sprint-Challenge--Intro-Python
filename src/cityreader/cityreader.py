@@ -29,8 +29,8 @@ cities = []
 
 
 def cityreader(cities=[]):
-    with open('cities.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile)
+    with open('cities.csv', 'r') as csvfile1:
+        reader = csv.reader(csvfile1)
         next(reader, None)
         for row in reader:
             # print(row[0], row[3], row[4])
